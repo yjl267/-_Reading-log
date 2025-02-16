@@ -1,0 +1,106 @@
+/* 전체 페이지 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    text-align: left;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* 제목 스타일 */
+h1, h2 {
+    color: #333;
+    margin-left: 15px;
+}
+
+/* 버튼 스타일 */
+.button {
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 10px;
+    background-color: #007BFF; /* 파란색 배경 */
+    color: white; /* 흰색 글자 */
+    text-align: center;
+    text-decoration: none; /* 밑줄 제거 */
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px; /* 모서리를 둥글게 */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* 버튼에 마우스를 올렸을 때 효과 */
+.button:hover {
+    background-color: #0056b3; /* 더 진한 파란색 */
+    transform: scale(1.05); /* 약간 확대 */
+}
+
+/* 버튼 컨테이너 스타일 */
+p {
+    margin-left: 15px;
+}
+body {
+    font-family: Arial, sans-serif; /* 전체 페이지의 폰트 스타일 지정 */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* 배경색 설정 */
+    text-align: center; /* 제목을 중앙 정렬 */
+}
+
+h1 {
+    color: #00afff; /* 제목의 색상 지정 */
+    text-align: left; /* 제목을 중앙 정렬 */
+}
+
+h2 {
+    color: #00bfff; /* 제목의 색상 지정 */
+    text-align: left; /* 제목을 중앙 정렬 */
+}
+h3 {
+    color: #32b8ff; /* 제목의 색상 지정 */
+    text-align: left; /* 제목을 중앙 정렬 */
+}
+
+p {
+    font-size: 16px; /* 문단의 폰트 크기 지정 */
+    color: #afddfa; /* 문단의 색상 지정 */
+    line-height: 1.2; /* 문단의 줄 간격 지정 */
+    margin: 10px; /* 문단 주위 여백 지정 */
+    text-align: left; /* 제목을 중앙 정렬 */
+}
+
+a {
+    color: #00d7ff; /* 링크의 색상 지정 */
+    text-decoration: none; /* 링크의 밑줄 제거 */
+    text-align: center; /* 제목을 중앙 정렬 */
+}
+a:hover {
+    color: blue; /* 마우스 오버 시 링크 색상 변경 */
+    text-align: center; /* 제목을 중앙 정렬 */
+}
+
+ul {
+    list-style: none; /* 목록의 스타일 없애기 */
+    padding: 0;
+    text-align: left; /* 제목을 중앙 정렬 */
+}
+
+li {
+    background-color: #14a0a0; /* 목록 항목 배경색 지정 */
+    margin-bottom: 5px; /* 목록 항목 사이의 여백 지정 */
+    padding: 5px; /* 목록 항목 내부 여백 지정 */
+    border: 1px solid #37c3c3; /* 목록 항목 테두리 지정 */
+    text-align: left; /* 제목을 중앙 정렬 */
+}
+img {
+  border: 1px solid #37c3c3;
+  border-radius: 4px;
+  padding: 5px;
+  width: 320px;
+}
+
+div {
+    margin: 20px; /* div 주위 여백 지정 */
+    padding: 20px; /* div 내부 여백 지정 */
+    background-color: yellow; /* 배경색 지정 */
+    border: 1px solid #78eaff; /* 테두리 지정 */
+    text-align: center; /* 제목을 중앙 정렬 */
+}
